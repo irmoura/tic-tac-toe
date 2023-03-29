@@ -1,2 +1,2 @@
-# tic-toc-toe
+# tic-tac-toe
 Jogo da Velha em Csharp
