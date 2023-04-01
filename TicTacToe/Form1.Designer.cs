@@ -50,6 +50,7 @@ namespace TicTacToe
             this.label1.Size = new System.Drawing.Size(236, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Jogo da Velha";
+            this.label1.Visible = false;
             // 
             // label2
             // 
@@ -61,6 +62,7 @@ namespace TicTacToe
             this.label2.Size = new System.Drawing.Size(320, 37);
             this.label2.TabIndex = 1;
             this.label2.Text = "Criado por Ismael R";
+            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -106,6 +108,7 @@ namespace TicTacToe
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // xScore
             // 
@@ -150,6 +153,7 @@ namespace TicTacToe
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
